@@ -7,7 +7,7 @@ t = c(1,2,3)
 z = c('a','b','c','d')
 
 x = list(y,z)
-
+# adadgrae
 
 my_list <- list(a = c(1, 2, 3, 4, 5),
 b = matrix(1:10, nrow = 2, ncol = 5),
@@ -30,7 +30,7 @@ abline(v = 4e2,lwd =2,lty = 1)
 abline(h=2,lwd = 3,lty = 3)
 mtext("Some text at the top", side = 3)
 legend(40, -1, "A legend",box.col = 'black',bg = 'white',border ='black')
-#aldkfnvlad
+
 w = rnorm(1000,mean=0,sd = 1)
 print(seq(1,10,1))
 puff = .5
