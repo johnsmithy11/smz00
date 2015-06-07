@@ -29,7 +29,7 @@ grid()
 abline(v = 4e2,lwd =2,lty = 1)
 abline(h=2,lwd = 3,lty = 3)
 mtext("Some text at the top", side = 3)
-#legend(40, -1, "A legend",box.col = 'black',bg = 'white',border ='black')
+legend(40, -1, "A legend",box.col = 'black',bg = 'white',border ='black')
 
 w = rnorm(1000,mean=0,sd = 1)
 print(seq(1,10,1))
